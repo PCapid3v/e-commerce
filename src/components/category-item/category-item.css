@@ -38,7 +38,7 @@
   width: 100%;
   height: 100%;
   background-size: cover;
-  background-position: center;
+  background-position: top;
 }
 
 .category-body-container {
@@ -62,4 +62,12 @@
 .category-body-container p {
   font-weight: lighter;
   font-size: 16px;
+}
+
+.category-container:nth-child(-n + 3) {
+  grid-column: span 2;
+}
+
+.category-container:nth-child(n + 4) {
+  grid-column: span 3;
 }

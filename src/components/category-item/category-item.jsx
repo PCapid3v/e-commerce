@@ -1,4 +1,4 @@
-import './category-item.css';
+import './Category-item.css';
 
 function CategoryItem ({ category }){
   const { imageUrl, title } = category;
@@ -16,6 +16,6 @@ function CategoryItem ({ category }){
       </div>
     </div>
   );
-};
+}
 
 export default CategoryItem;

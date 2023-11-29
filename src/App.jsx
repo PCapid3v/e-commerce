@@ -1,14 +1,12 @@
-import categories from './data.js'
-import CategoryItem from './components/category-item/category-item.jsx'
+import Home from './components/routes/home/Home'
+import { Route, Routes } from 'react-router-dom'
 
 function App() {
   
     return (
-      <div className='categories-container'>
-      {categories.map((category) => (
-        <CategoryItem key={category.id} category={category} />
-      ))}
-    </div>
+      <Routes>
+      <Route path='/' index element={<Home />} />
+    </Routes>
   )
 }
 

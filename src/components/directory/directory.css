@@ -1,6 +1,5 @@
 .directory-container {
-    width: 100%;
     display: grid;
-    grid-auto-flow: column;
-    justify-content: space-between;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 15px;
   }
