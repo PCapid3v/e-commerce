@@ -8,10 +8,10 @@ const logGoogleUser = async () => {
     console.log(user);
 };
     return (
-        <div>
+        <div className="signIn-container">
             <h1>Sign In Page</h1>
+            <button className="btn btnGoogle" onClick={logGoogleUser}>Sign in with Google</button>
             <SignUpForm />
-            <button className="btn" onClick={logGoogleUser}>Sign in with Google</button>
         </div>
 
     )

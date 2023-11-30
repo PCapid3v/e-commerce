@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  padding: 20px 40px;
   font-family: 'Open Sans Condensed', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -29,5 +30,12 @@ code {
   background-image: none;
   border: 1px solid transparent;
   border-radius: 4px;
+}
+
+.btnGoogle {
+  color: #fff;
+  background-color: #4285f4;
+  border-color: #357ae8;
+  margin-left: 10px;
 }
 

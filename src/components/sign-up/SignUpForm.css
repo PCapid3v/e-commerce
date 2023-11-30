@@ -1,5 +1,39 @@
-form {
-    display: grid;
-    grid-template-columns: minmax(80px, max-content);
-    grid-gap: 10px;
+.signIn-container{
+  display: grid;
+  justify-content: center;
 }
+
+form {
+    width: fit-content;
+    margin: 1.5rem ;
+    padding: 2.5rem;
+    background-color: rgb(217, 210, 210);
+    border-radius: 20px;
+    box-shadow: rgb(60, 56, 56);
+    display: grid;
+    grid-template-columns: minmax(80px, max-content)
+  }
+
+  form > label {
+    display: block;
+  }
+  
+  form textarea {
+    display: block;
+    padding: 0.25rem;
+    font-size: inherit;
+  }
+  
+  form > input {
+    margin-top: 0.5rem;
+    margin-bottom: 0.8rem;
+    padding: 0.25rem;
+    display: inline-block;
+    width: 100%;
+  }
+  
+  form label {
+    display: inline-block;
+    margin-left: 2rem;
+    text-align: center;
+  }

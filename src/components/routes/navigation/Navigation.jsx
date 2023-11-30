@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 
 import logo from '../../../assets/images/logoPC.jpg';
+import CartIcon from '../../cart-icon/cart-icon';
 import './Navigation.css';
 
 function Navigation () {
@@ -16,6 +17,7 @@ function Navigation () {
           <Link className='nav-link' to='/sign-in'>
             SIGN IN
           </Link>
+        <CartIcon />
         </div>
       </div>      
   );
