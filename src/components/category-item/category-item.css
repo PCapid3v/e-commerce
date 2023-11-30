@@ -1,6 +1,5 @@
 .category-container {
   min-width: 30%;
-  height: 240px;
   display: grid;
   place-items: center;
   border: 1px solid black;
