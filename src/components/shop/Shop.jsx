@@ -3,8 +3,10 @@ import ProductCard from '../product-card/product-card';
 import { ProductContext } from '../../context/products';
 
 import './Shop.css';
+import { useNavigate } from 'react-router-dom';
 
 const Shop = () => {
+  const navigate = useNavigate();
   const { products } = useContext(ProductContext);
   console.log(products);
   return (
@@ -17,6 +19,7 @@ const Shop = () => {
               <ProductCard key={item.id} product={item} />
             ))}
           </div>
+          <button className='goBackBtn' onClick={() => navigate('/')}>Go Back</button>
         </div>
       ))}
     </div>

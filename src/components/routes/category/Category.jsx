@@ -1,5 +1,4 @@
 import { useParams } from 'react-router-dom'
-import './Category.css'
 import { useContext } from 'react'
 import { ProductContext } from '../../../context/products'
 import CategoryItem from '../../category-item/Category-item'

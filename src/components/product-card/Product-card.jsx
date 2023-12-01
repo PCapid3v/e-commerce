@@ -12,6 +12,7 @@ const ProductCard = ({ product }) => {
         <span className='price'>{`£ ${price}`}</span>
       </div>
       <button className='add-to-cart-button' >Add to Cart</button>
+      
     </div>
   );
 };
