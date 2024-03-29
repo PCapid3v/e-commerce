@@ -1,4 +1,4 @@
-import Directory from "../../directory/Directory";
+import Directory from "../../directory/Directory.jsx";
 
 import categories from "../../../data";
 
